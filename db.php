@@ -19,7 +19,7 @@
          //ajustar o charset de comunicação entre a aplicação e o banco de dados
         mysqli_set_charset($conn, 'utf8');
 
-         //verificar se houve erro de conexão
+         //verificar se houve erro de conexão.
         if($conn->connect_error){
            die("connection failed" .$conn->connect_error);
         }
